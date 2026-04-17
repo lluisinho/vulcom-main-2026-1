@@ -1,10 +1,10 @@
 # Forkando e clonando este repositório
 
 1. Faça _login_ no [GitHub](https://github.com).
-2. Acesse [https://github.com/faustocintra/vulcom-main-YYYY-S](https://github.com/faustocintra/vulcom-main-YYYY-S).
+2. Acesse [https://github.com/faustocintra/vulcom-main-2026-1](https://github.com/faustocintra/vulcom-main-2026-1).
 3. Clique sobre o botão `[Fork]` no canto superior direito.
 4. Na página seguinte ("Create new fork"), não altere nada, simplesmente clique sobre o botão `[Create fork]`. Aguarde.
-5. Confira se a URL mostrada no navegador corresponde a "https://github.com/**<SEU USUÁRIO>**/vulcom-main-YYYY-S".
+5. Confira se a URL mostrada no navegador corresponde a "https://github.com/**<SEU USUÁRIO>**/vulcom-main-2026-1".
 6. Clique sobre o botão verde `[Code]` e copie o endereço do seu repositório forkado.
 7. Abra o Visual Studio Code. Se houver algum projeto aberto, feche-o usando a opção de menu `Arquivo > Fechar Pasta` (ou `File > Close folder`).
 8. Clique sobre o botão que se parece com um `Y` na barra vertical esquerda do Visual Studio Code. Em seguida, clique sobre o botão `[Clonar repositório...]` (ou `[Clone repository...]`). Nessa etapa, se o Git não estiver instalado na máquina, será necessário baixá-lo (a partir de [https://git-scm.com/](https://git-scm.com/)) e instalá-lo antes de poder clonar o repositório.
@@ -43,8 +43,8 @@ Renomeie o arquivo `.env.example` para `.env`. Ajuste o conteúdo do arquivo par
 ```ini
 # Renomeie este arquivo para .env e preencha os valores abaixo
 
-# Qualquer string aleatória
-TOKEN_SECRET="[Qualquer string aleatória]"
+# String aleatória gerada em https://it-tools.tech/token-generator
+TOKEN_SECRET="<string aleatória>"
 
 # Nome do cookie de autenticação, p. ex. _auth
 # # (mesmo valor de VITE_AUTH_COOKIE_NAME no .env.local do front-end)
@@ -85,7 +85,7 @@ Renomeie o arquivo `.env.local.example` para `.env.local`. Ajuste o conteúdo do
 # Renomeie este arquivo para .env.local e preencha os valores abaixo
 
 # Preencha com a URL do back-end
-VITE_API_BASE="http://localhost:8080"
+VITE_API_BASE="http://localhost:8888"
 
 # Preencha com o nome do cookie de autenticação
 # (mesmo valor de AUTH_COOKIE_NAME no .env do back-end)
